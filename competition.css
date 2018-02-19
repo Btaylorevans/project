@@ -1,0 +1,19 @@
+h1{
+  text-align:center;
+  color:red;
+  font-family:OCR A Extended;
+  size:18px;
+}
+
+h2{
+  text-align:center;
+  color:yellow;
+  font-family:OCR A Extended;
+  size:18px;
+}
+
+.navigation {
+  list style type:none;
+  margin:0;
+  padding:0;
+}
