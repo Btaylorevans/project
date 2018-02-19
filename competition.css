@@ -11,3 +11,9 @@ h2{
   font-family:OCR A Extended;
   size:18px;
 }
+
+.navigation {
+  list style type:none;
+  margin:0;
+  padding:0;
+}
