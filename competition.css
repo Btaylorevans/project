@@ -10,6 +10,7 @@ h2 {
   color: yellow;
   font-family: OCR A Extended;
   size: 18px;
+<<<<<<< HEAD
 }
 
 .navigation ul {
@@ -19,4 +20,6 @@ h2 {
 }
 li {
   display: inline;
+=======
+>>>>>>> refs/remotes/origin/master
 }
