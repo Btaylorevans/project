@@ -1,18 +1,18 @@
 h1 {
   text-align: center;
-  color: red;
+  color: black;
   font-family: OCR A Extended;
   size: 18px;
 }
 
 h2 {
   text-align: center;
-  color: yellow;
+  color: black;
   font-family: OCR A Extended;
   size: 18px;
 }
 
-.navigation {
+ul.navigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,4 +35,13 @@ li a {
 li a:hover {
     background-color: #111;
 }
-<!li a hover is making it weird>
+
+ul.footer {
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: centre;
+}
