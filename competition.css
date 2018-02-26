@@ -20,11 +20,11 @@ ul.navigation {
     background-color: #333;
 }
 
-li {
+li.navigationlist {
     float: left;
 }
 
-li a {
+li.navigationlist a {
     display: block;
     color: white;
     text-align: center;
@@ -32,7 +32,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li.navigationlist a:hover {
     background-color: #111;
 }
 
@@ -44,4 +44,15 @@ ul.footer {
     width: 100%;
     background-color: #D3D3D3;
     text-align: centre;
+}
+li.footerlist {
+    float: left;
+}
+
+li.footerlist a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
