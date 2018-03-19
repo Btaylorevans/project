@@ -19,16 +19,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Recipes
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Our Recipes</a>
-                  <a class="dropdown-item" href="#">Red Potion</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Spinach Puffs</a>
-                </div>
+              <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Recipes
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Spinach Puffs</a>
+          <a class="dropdown-item" href="#">Red Potion</a>
+          <a class="dropdown-item" href="#">Other Recipes</a>
+        </div>
+      </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" href="#">Contact Us</a>
@@ -40,6 +41,7 @@
             </form>
           </div>
         </nav>
+
   <body>
   <h1>About Us</h1>
   <p>We are an online recipe book for aspiring bakers and cooks of all backgrounds and abilities.
