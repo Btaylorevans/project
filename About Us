@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>Hyperlinks</Title>
+    <!Code Before Bros Website>
+    <title>The Cookbook Cheatsheet</title>
+      <link rel="stylesheet" type="text/css" href="C:\Users\Tgoon\Documents\GitHub\bootstrap_exercise\bootstrap_exercise-master\css\bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="competition.css">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+</head>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <A HREF="C:\Users\User\Documents\Coding_Course\First_Site\contact us">Home</A> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Recipes
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Spinach Puffs</a>
+          <a class="dropdown-item" href="#">Red Potion</a>
+          <a class="dropdown-item" href="#">Other Recipes</a>
+        </div>
+      </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+  <body>
+  <h1>About Us</h1>
+  <p>We are an online recipe book for aspiring bakers and cooks of all backgrounds and abilities.
+    Recipes ranging from far away worlds, to lands of creatures, to even the universe of gaming - The Cookbook Cheatsheet has it all!</p>
+  <h2>The Cookbook Developers</h2>
+<p>Our workers include Chloe, Hattie and Bethan. We manage the website and add new recipes to the online Cookbook.</p>
+<h3>Where did we start?</h3>
+<p>With a love of cooking and baking ourselves we would often talk about how we would wish we could cook some of the dishes and delicacies we read about in our fantasy worlds.
+  Once we sourced ingredients and scoured fan pages suggesting how to cook some of these we decided to put them all in a cook book to share with other nerds of the world!</p>
+<img src="C:\Users\User\Documents\CFG\Butterbeer.jpg" class="rounded float-left">
+<img src="C:\Users\User\Documents\CFG\Pokemon.jpg"class="rounded float-right">
+<img src="C:\Users\User\Documents\CFG\walking dead.jpg">
+<img src="C:\Users\User\Documents\CFG\narnia.jpg">
+<img src="C:\Users\User\Documents\CFG\spinach puff.jpg">
+</body>
+</html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+body {
+  background-color: grey;
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  position: relative;
+  vertical-align: middle;
+}
+h1 {
+  color: black;
+  font-family: courier;
+  font-weight: bold;
+}
+h2 {
+  font-family: courier;
+  text-decoration: underline;
+}
+h3 {
+  font-family: courier;
+  text-decoration: underline;
+}
+p {
+font-family:Helvetica;
+color: white;
+background: black;
+}
+</style>
