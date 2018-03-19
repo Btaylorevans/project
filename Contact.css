@@ -1,3 +1,29 @@
+<!DOCTYPE html>
+
+<style>
+
+h1 {
+  font-family: courier;
+  font-size: 30px;
+  color: white;
+  width: auto;
+  text-align: center;
+}
+h2 {
+  font-family: courier;
+  font-size: 34px;
+  color: white;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+body {
+  background: black;
+  text-align: center;
+  color: grey;
+  font-family: courier;
+  font-size: 30px;
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -9,18 +35,73 @@ input[type=text], select, textarea {
     resize: vertical
 }
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+.logo {
+  margin: -150px 0 0 0;
+  position:absolute;
+  left:0;
+  top:0
+  height: 200px;
+  width: 210px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 25px;
+  background-size: cover;
+}
+</style>
