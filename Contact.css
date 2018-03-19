@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <style>
 
 h1 {
@@ -16,7 +18,7 @@ h2 {
   width: auto;
 }
 body {
-  background: black;
+  background: silver;
   text-align: center;
   color: grey;
   font-family: courier;
@@ -101,5 +103,13 @@ input[type=submit]:hover {
   margin-left: 10px;
   margin-right: 25px;
   background-size: cover;
+}
+.navbar-nav {
+  background-color: silver;
+  font-family: Courier;
+  text-align: cneter;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
 }
 </style>
